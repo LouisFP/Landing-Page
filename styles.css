@@ -3,14 +3,19 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  flex-basis: 100%;
+  margin: 0px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
   display: flex;
   justify-content: space-around;
   margin: 0px;
-  padding: 8px;
+  padding: 15px;
   background-color: rgb(25, 25, 71);
 }
 
@@ -37,90 +42,110 @@ ul {
   justify-content: center;
   align-items: center;
   background-color: rgb(25, 25, 71);
+  padding: 80px;
+  gap: 300px;
 }
 
 .text {
+  display: flex;
   flex-direction: column;
 }
 
 .title {
   font-size: 30px;
   color: white;
+  flex-wrap: wrap;
 }
 
 .subtext {
- color: white;
- font-size: 10px;
+  color: white;
+  font-size: 10px;
 }
 
 .signup {
-    background-color: blue;
-    padding: 5px, 25px;
-    border: none;
-    border-radius: 10px;
+  background-color: blue;
+  padding: 5px, 25px;
+  border: none;
+  border-radius: 10px;
 }
 
 .pholder {
-    display: flex;
-    background-color: grey;
-    align-items: center;
-    justify-content: center;
-    padding: 20px, 35px;
+  display: flex;
+  background-color: grey;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.second {
+  text-align: center;
+}
+
+.title_2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+    border: 3px solid blue;
+    border-radius: 4px;
+    padding: 40px;
 }
 
 .third,
 .fourth {
-    display: flex;
-    align-items: center;
-    justify-content: center;;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .third {
-    flex-direction: column;
-    background-color: rgb(153, 153, 153);
+  flex-direction: column;
+  background-color: rgb(153, 153, 153);
 }
 
-.quote{
-    font-size: 30px;
-    text-align: center;
-}
-
-.speaker {
-    display: flex;
-    justify-content: flex-end;
+.quote {
+  font-size: 30px;
+  text-align: center;
+  margin: 25px 400px;
 }
 
 .rectangle {
-    background-color: blue;
-    padding: 50px 100px;
-    display: flex;
-    justify-content: space-around;
-    border-radius: 8px;
-    gap: 50px;
+  background-color: blue;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 8px;
+  gap: 50px;
 }
 
 .signup_2 {
-    background-color: blue;
-    border: 1px solid white;
-    border-radius: 12px;
-    padding: 0px 30px;
+  background-color: blue;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 0px 30px;
 }
 
-.text_2{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.text_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .s-title {
-    color: white;
-    font-size: 18px;
-    margin-bottom: 8px;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 8px;
 }
 
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: auto;
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
 }
